@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Makhanani Study Guide — Maths Lit Grade 10-12 | CAPS | Xintimani Group</title>
+<style>
+*{box-sizing:border-box}body{font-family:Arial,sans-serif;margin:0;background:#f5f3ff;color:#0f172a;line-height:1.6;padding-bottom:40px}
+header{background:linear-gradient(135deg,#0a1f4d,#7c3aed,#d4af37);color:#fff;padding:22px 16px;text-align:center}
+header img{width:210px;max-width:85%;background:#fff;padding:10px;border-radius:16px;display:block;margin:0 auto 10px}
+h1{margin:6px 0}h2{margin-top:0}.wrap{max-width:1000px;margin:0 auto;padding:0 12px}
+.topbar{background:#fff;padding:10px;display:flex;gap:8px;flex-wrap:wrap;justify-content:center;border-bottom:3px solid #d4af37;position:sticky;top:0;z-index:99}
+button,a.btn{cursor:pointer;border:none;border-radius:10px;padding:12px 16px;font-weight:800;text-decoration:none;display:inline-block}
+.card{background:#fff;border-radius:16px;padding:16px;margin:12px 0;box-shadow:0 2px 8px rgba(0,0,0,.1)}
+.gold{background:#d4af37;color:#0a1f4d}.blue{background:#0a1f4d;color:#fff}.green{background:#059669;color:#fff}.purple{background:#7c3aed;color:#fff}.red{background:#dc2626;color:#fff}.dark{background:#0f172a;color:#fff}.teal{background:#0d9488;color:#fff}
+.badge{display:inline-block;padding:6px 10px;border-radius:20px;font-size:12px;font-weight:800;background:#ede9fe;color:#5b21b6}
+.formula{background:#0a1f4d;color:#fff;padding:14px;border-radius:12px;font-weight:800;font-size:15px;text-align:center;margin:10px 0}
+.example{background:#fefce8;border:2px dashed #d4af37;border-radius:12px;padding:12px;margin:10px 0}
+.tip{background:#ecfdf5;border-left:5px solid #059669;padding:12px;border-radius:10px;margin:10px 0}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}@media(max-width:700px){.grid{grid-template-columns:1fr}}
+table{width:100%;border-collapse:collapse}th,td{padding:10px;border:1px solid #eee;text-align:left;font-size:13px}th{background:#0a1f4d;color:#fff}
+.hidden{display:none}.topic{border:3px solid #ede9fe;border-radius:14px;padding:14px;margin:10px 0}
+input{width:100%;padding:12px;margin:6px 0;border-radius:10px;border:1px solid #ddd}
+.q{border:2px solid #ede9fe;border-radius:12px;padding:12px;margin:10px 0;background:#fff}
+.opt{display:block;width:100%;text-align:left;padding:11px;margin:6px 0;border:2px solid #ddd;border-radius:10px;background:#fff;font-weight:700;cursor:pointer}
+.opt.correct{background:#dcfce7;border-color:#059669}.opt.wrong{background:#fee2e2;border-color:#ef4444}
+</style></head>
+<body>
+<header>
+<img src="logo.png" alt="Xintimani Group Logo">
+<h1>📚 MAKHANANI STUDY GUIDE</h1>
+<p><b>Mathematical Literacy — CAPS — Grade 10 to 12</b><br>Xintimani Group • Mr Vusi Chauke • 078 023 3263<br>Learn. Practice. Pass. — Formula + Example + Exam Tip for EVERY Topic</p>
+<div style="background:#fff;color:#0a1f4d;padding:10px;border-radius:12px;font-weight:800;margin-top:10px">🎯 Paper 1: Finance + Data + Measurement | Paper 2: Maps + Probability + Data | Pass = 30% | Distinction = 80%</div>
+</header>
+
+<div class="topbar">
+<button class="purple" onclick="show('home')">🏠 HOME</button>
+<button class="gold" onclick="show('g10')">📗 GRADE 10</button>
+<button class="blue" onclick="show('g11')">📘 GRADE 11</button>
+<button class="red" onclick="show('g12')">🔥 GRADE 12</button>
+<button class="green" onclick="show('formulas')">🧮 FORMULA SHEET</button>
+<button class="teal" onclick="show('plan')">📅 30-DAY PLAN</button>
+<button class="dark" onclick="show('quiz')">✍️ QUICK QUIZ</button>
+<a class="btn gold" href="https://vusichauke3037-glitch.github.io/MAKHANANI-ACADEMY/">🎓 OPEN ACADEMY APP →</a>
+</div>
+
+<div class="wrap">
+
+<!-- HOME -->
+<div id="tab-home">
+<div class="card" style="text-align:center;border:3px solid #d4af37"><span class="badge">CAPS ALIGNED • DBE • GRADE 10-12 • 2026</span><h2>Choose Your Grade To Start</h2><p>The SAME 6 topics every year — just harder. Master the formula, then practice.</p>
+<div style="display:flex;gap:8px;flex-wrap:wrap;justify-content:center">
+<button class="gold" onclick="show('g10')">📗 GRADE 10 — FOUNDATION</button>
+<button class="blue" onclick="show('g11')">📘 GRADE 11 — INTERMEDIATE</button>
+<button class="red" onclick="show('g12')">🔥 GRADE 12 — MATRIC</button>
+</div></div>
+
+<div class="card"><h2>📐 The 6 CAPS Topics</h2><div class="grid">
+<div class="topic"><b>1. 💰 Finance</b><br>Budget, Interest, Hire Purchase, Tax, Exchange, Inflation, Break-Even<br><span class="badge">40% of Exam</span></div>
+<div class="topic"><b>2. 📏 Measurement</b><br>Length, Area, Perimeter, Volume, Conversions<br><span class="badge">15% of Exam</span></div>
+<div class="topic"><b>3. 🗺️ Maps & Plans</b><br>Scale, Distance, Speed, Floor Plans<br><span class="badge">15% of Exam</span></div>
+<div class="topic"><b>4. 📊 Data Handling</b><br>Mean, Median, Mode, Range, Graphs<br><span class="badge">15% of Exam</span></div>
+<div class="topic"><b>5. 🎲 Probability</b><br>P = Favourable / Total, Tree Diagrams<br><span class="badge">10% of Exam</span></div>
+<div class="topic"><b>6. 🔢 Numbers</b><br>In every topic — Calculations, % , Ratio<br><span class="badge">In All Topics</span></div>
+</div></div>
+
+<div class="card"><h2>🏆 How To Pass — 5 Rules (FSU)</h2>
+<p><b>1. FSU:</b> Formula → Substitution → Units. Always write formula first, even if answer wrong you get 1 mark.<br>
+<b>2. Read Twice:</b> Underline what is asked, numbers, units.<br>
+<b>3. Do Easy First:</b> Finance first, skip hard, come back.<br>
+<b>4. 10 Q Per Day:</b> Academy App = 10 Practice Q per day = Pass.<br>
+<b>5. Never Blank:</b> Write something. Blank = 0.</p>
+<button class="green" style="width:100%" onclick="show('quiz')">✍️ TEST YOURSELF — QUICK QUIZ →</button></div>
+
+<div class="card" style="text-align:center"><b>MAKHANANI ACADEMY — XINTIMANI GROUP</b><br>Mr Vusi Chauke — WhatsApp 078 023 3263<br><a href="https://wa.me/27780233263?text=Hi%20Makhanani%2C%20I%20want%20the%20Study%20Guide">📲 WhatsApp Us For Study Guide PDF</a></div>
+</div>
+
+<!-- GRADE 10 -->
+<div id="tab-g10" class="hidden">
+<div class="card"><h2>📗 GRADE 10 — FOUNDATION</h2><p>Learn the basics. If you master Grade 10, Grade 11 & 12 are easy.</p></div>
+
+<div class="card"><h3>💰 1. FINANCE — Grade 10</h3>
+<div class="formula">Profit = Income - Expenses &nbsp;|&nbsp; Net = Gross - Deductions &nbsp;|&nbsp; VAT = 15% × Price excl</div>
+<div class="example"><b>Example 1 — Budget:</b> Income R5 000, Expenses R4 200. Profit = 5000 - 4200 = <b>R800 Surplus</b><br><b>Example 2 — VAT:</b> Price R400 excl. VAT = 15% × 400 = R60. Incl = <b>R460</b><br><b>Example 3 — Payslip:</b> Gross R8 000, Tax R800, UIF R80. Net = 8000 - 800 - 80 = <b>R7 120</b></div>
+<div class="tip"><b>Exam Tip:</b> Always show Formula + Substitution + Answer + R. Budget question: If Expenses &gt; Income = Deficit.</div></div>
+
+<div class="card"><h3>📏 2. MEASUREMENT — Grade 10</h3>
+<div class="formula">Area Rectangle = L × B &nbsp;|&nbsp; Perimeter = 2(L+B) &nbsp;|&nbsp; 1m = 100cm &nbsp;|&nbsp; 1L = 1000ml</div>
+<div class="example"><b>Example:</b> Room 4m × 3m. Area = 12m². Perimeter = 2(4+3) = <b>14m</b><br><b>Conversion:</b> 2.5 litres = <b>2500 ml</b> &nbsp;|&nbsp; 3km = <b>3000m</b></div></div>
+
+<div class="card"><h3>🗺️ 3. MAPS — Grade 10</h3>
+<div class="formula">Real Distance = Map Distance × Scale</div>
+<div class="example"><b>Example:</b> Map 4cm, Scale 1:25 000. Real = 4 × 25 000 = 100 000cm = <b>1km</b><br><b>Direction:</b> North = Up, South = Down, East = Right, West = Left.</div></div>
+
+<div class="card"><h3>📊 4. DATA — Grade 10</h3>
+<div class="formula">Mean = Sum ÷ n &nbsp;|&nbsp; Range = Max - Min &nbsp;|&nbsp; Median = Middle (Sort First!)</div>
+<div class="example"><b>Example:</b> Data 5, 8, 10, 12. Sum=35. Mean = 35÷4 = <b>8.75</b>. Range = 12-5 = <b>7</b>. Mode = No mode (all once).</div></div>
+
+<div class="card"><h3>🎲 5. PROBABILITY — Grade 10</h3>
+<div class="formula">P(Event) = Favourable ÷ Total</div>
+<div class="example"><b>Example:</b> Bag 3 red, 5 blue. Total 8. P(red) = 3/8 = <b>0.375 = 37.5%</b></div></div>
+<button class="blue" style="width:100%" onclick="show('g11')">Next → GRADE 11 📘</button>
+</div>
+
+<!-- GRADE 11 -->
+<div id="tab-g11" class="hidden">
+<div class="card"><h2>📘 GRADE 11 — INTERMEDIATE</h2><p>New: Compound Interest, Hire Purchase, Exchange, Cylinder Volume, Tree Diagrams.</p></div>
+
+<div class="card"><h3>💰 1. FINANCE — Grade 11</h3>
+<div class="formula">I = P × r × n (Simple) &nbsp;|&nbsp; A = P(1+r)ⁿ (Compound) &nbsp;|&nbsp; Total HP = Deposit + (Monthly × Months)</div>
+<div class="example"><b>Simple:</b> R5 000 at 10% for 3 yrs. I = 5000×0.10×3 = <b>R1 500</b>. Amount = R6 500<br><b>Compound:</b> R5 000 at 10% for 2 yrs. A = 5000(1.10)² = <b>R6 050</b><br><b>Hire Purchase:</b> Cash R4 000. HP: Deposit R800 + 12 × R350 = R5 000. Interest = <b>R1 000</b><br><b>Exchange:</b> Change R3 400 to $. Rate $1 = R17. $ = 3400 ÷ 17 = <b>$200</b><br><b>Inflation:</b> Bread R20, Inflation 6% for 2 yrs. New = 20×(1.06)² = <b>R22.47</b></div>
+<div class="tip"><b>Exam Tip:</b> Compound = Bigger than Simple. Always convert % to decimal: 10% = 0.10. r must match period.</div></div>
+
+<div class="card"><h3>📏 2. MEASUREMENT — Grade 11</h3>
+<div class="formula">Volume Box = L × B × H &nbsp;|&nbsp; Volume Cylinder = πr²h &nbsp;|&nbsp; Area Circle = πr² &nbsp;|&nbsp; π = 3.14</div>
+<div class="example"><b>Example:</b> Cylinder r=7cm, h=10cm. Volume = 3.14 × 49 × 10 = <b>1 539.8 cm³</b></div></div>
+
+<div class="card"><h3>🗺️ 3. MAPS — Grade 11</h3>
+<div class="formula">Distance = Speed × Time &nbsp;|&nbsp; Time = Distance ÷ Speed</div>
+<div class="example"><b>Example:</b> Travel 120km/h for 2.5h. Distance = 120 × 2.5 = <b>300km</b></div></div>
+
+<div class="card"><h3>📊 4. DATA — Grade 11</h3>
+<div class="formula">IQR = Q3 - Q1</div>
+<div class="example"><b>Example:</b> Q1=20, Q3=60. IQR = <b>40</b>. Learn Box-and-Whisker + Histogram.</div></div>
+
+<div class="card"><h3>🎲 5. PROBABILITY — Grade 11</h3>
+<div class="formula">P(A and B) = P(A) × P(B) &nbsp;|&nbsp; P(Not A) = 1 - P(A)</div>
+<div class="example"><b>Example:</b> Coin + Die. P(Head and 6) = 1/2 × 1/6 = <b>1/12</b></div></div>
+<button class="red" style="width:100%" onclick="show('g12')">Next → GRADE 12 — MATRIC 🔥</button>
+</div>
+
+<!-- GRADE 12 -->
+<div id="tab-g12" class="hidden">
+<div class="card" style="border:3px solid #dc2626"><h2>🔥 GRADE 12 — MATRIC — FINAL EXAM</h2><p>Grade 12 = Grade 10 + 11 combined, harder. Master these 6 and you pass.</p></div>
+
+<div class="card"><h3>💰 1. FINANCE — Grade 12 (MOST MARKS)</h3>
+<div class="formula">Break-Even = Fixed ÷ (Sell - Variable) &nbsp;|&nbsp; A = P(1+r)ⁿ &nbsp;|&nbsp; Foreign = Rand ÷ Rate</div>
+<div class="example"><b>Break-Even:</b> Fixed R3 000, Variable R20, Sell R50. Break-Even = 3000 ÷ (50-20) = 3000 ÷ 30 = <b>100 units</b>. Must sell 100 to not lose money.<br><b>Loan:</b> Loan R20 000 at 12% p.a. compounded monthly for 2 yrs (24 months). r = 0.01. A = 20000(1.01)²⁴ = <b>R25 394.66</b><br><b>Exchange + Commission:</b> R5 000, Rate R18, Commission 2% = R100. Foreign = (5000-100) ÷ 18 = <b>$272.22</b><br><b>Tariffs:</b> Read tariff table. First 50kWh at R2, next at R3, etc. Add steps.</div>
+<div class="tip"><b>Exam Tip:</b> Payslip question: Gross - Tax - UIF (1%) - Pension = Net. Tariff: Always calculate step-by-step, don't just multiply total.</div></div>
+
+<div class="card"><h3>📏 2. MEASUREMENT — Grade 12</h3>
+<div class="formula">1m³ = 1000 litres &nbsp;|&nbsp; Surface Area Box = 2(LB + LH + BH)</div>
+<div class="example"><b>Example:</b> Tank 2m³ = <b>2000 litres</b>. Fuel: 400km at 8L/100km = 32L. Cost = 32 × R23 = <b>R736</b></div></div>
+
+<div class="card"><h3>🗺️ 3. MAPS — Grade 12</h3>
+<div class="example"><b>Example — Floor Plan:</b> Scale 1:100. Room 5cm on plan = 500cm = <b>5m real</b>. Area = 5m × 4m = 20m². Tiles needed = Area ÷ Tile Area.</div></div>
+
+<div class="card"><h3>📊 4. DATA — Grade 12</h3>
+<div class="example"><b>Example:</b> Graph shows sales increase Jan-Mar. Explain: "Sales increased because of back-to-school." Always explain WHAT graph shows, not just numbers. Watch for Outlier (one value far from others).</div></div>
+
+<div class="card"><h3>🎲 5. PROBABILITY — Grade 12</h3>
+<div class="formula">P(A or B) = P(A) + P(B) - P(A and B)</div>
+<div class="example"><b>Example:</b> Tree diagram with 2 stages: Draw branches, multiply along branches, add across branches.</div></div>
+
+<div class="card"><h3>🎓 GRADE 12 EXAM STRATEGY</h3><p>Paper 1 (2hrs): Start with Finance, then Data. Paper 2 (2hrs): Start with Maps, then Probability.<br>Time: 1 mark = 1 minute. 100 marks = 100 min + 20 min check.<br>Never leave blank. Write formula = 1 mark.</p></div>
+<button class="green" style="width:100%" onclick="show('formulas')">Next → FORMULA SHEET 🧮</button>
+</div>
+
+<!-- FORMULAS -->
+<div id="tab-formulas" class="hidden">
+<div class="card"><h2>🧮 FORMULA SHEET — MEMORISE THIS</h2>
+<div class="formula">Income - Expenses = Profit / Loss<br>Net = Gross - Deductions<br>VAT = 15% × Price excl<br>I = P × r × n<br>A = P(1+r)ⁿ<br>Total HP = Deposit + (Monthly × Months)<br>Foreign = Rand ÷ Rate<br>New Price = Old × (1+inflation)ⁿ<br>Break-Even = Fixed ÷ (Sell - Variable)<br><br>Area Rectangle = L × B<br>Area Circle = πr²<br>Perimeter Rectangle = 2(L+B)<br>Volume Box = L × B × H<br>Volume Cylinder = πr²h<br>Distance = Speed × Time<br><br>Mean = Sum ÷ n<br>Range = Max - Min<br>IQR = Q3 - Q1<br>P = Favourable ÷ Total<br>P(Not A) = 1 - P(A)</div>
+<p style="text-align:center"><b>Print this page. Stick it on your wall. Read it every morning.</b></p>
+<button class="green" style="width:100%" onclick="window.print()">🖨️ PRINT FORMULA SHEET</button></div>
+</div>
+
+<!-- PLAN -->
+<div id="tab-plan" class="hidden">
+<div class="card"><h2>📅 30-DAY STUDY PLAN</h2>
+<table><tr><th>Week</th><th>Focus</th><th>Daily Task</th></tr>
+<tr><td>Week 1</td><td>Grade 10</td><td>Finance + Measurement — 10 Q/day in Academy</td></tr>
+<tr><td>Week 2</td><td>Grade 11</td><td>Compound + HP + Maps — 10 Q/day</td></tr>
+<tr><td>Week 3</td><td>Grade 12</td><td>Break-Even + Exchange + Inflation + Data</td></tr>
+<tr><td>Week 4</td><td>Papers</td><td>1 Paper per day (9 Papers in Academy) + Memo</td></tr></table>
+<p><b>Daily Routine:</b><br>09:00 — Read 1 Topic (this guide)<br>09:30 — Do 10 Practice Q in Academy App<br>10:00 — Do 1 Paper Question + Check Memo</p></div>
+<div class="card"><h3>📚 CAPS Topic Weighting</h3><table><tr><th>Topic</th><th>Grade 10</th><th>Grade 11</th><th>Grade 12</th></tr>
+<tr><td>Finance</td><td>Basic</td><td>Interest + HP</td><td>All + Break-Even + Tax</td></tr>
+<tr><td>Measurement</td><td>Area/Perimeter</td><td>Volume</td><td>Surface Area + Conversions</td></tr>
+<tr><td>Maps</td><td>Scale</td><td>Plans + Speed</td><td>Floor Plans + Fuel</td></tr>
+<tr><td>Data</td><td>Mean/Median</td><td>IQR + Graphs</td><td>Interpret + Trends</td></tr>
+<tr><td>Probability</td><td>Simple</td><td>Tree (2 events)</td><td>Tree (3 events) + Tables</td></tr></table></div>
+</div>
+
+<!-- QUIZ -->
+<div id="tab-quiz" class="hidden">
+<div class="card"><h2>✍️ QUICK QUIZ — 5 Questions — Test Yourself</h2><p id="quizScore" style="font-weight:800">Score: 0 / 5</p><div id="quizBox"></div>
+<button class="purple" style="width:100%;margin-top:10px" onclick="loadQuiz()">🔄 RESTART QUIZ — NEW QUESTIONS</button></div>
+</div>
+
+</div>
+<script>
+function show(id){['home','g10','g11','g12','formulas','plan','quiz'].forEach(function(x){var el=document.getElementById('tab-'+x);if(el)el.classList.toggle('hidden',x!==id);});window.scrollTo({top:0,behavior:'smooth'});if(id==='quiz')loadQuiz();}
+var quizScore=0,quizDone=0;
+function loadQuiz(){quizScore=0;quizDone=0;document.getElementById('quizScore').textContent='Score: 0 / 5';
+var qs=[
+{q:'Invest R5000 at 10% simple interest for 2 years. Interest = ?',opts:['R500','R1000','R1500','R2000'],ans:1,exp:'I = 5000 x 0.10 x 2 = R1000'},
+{q:'Rectangle 5m x 4m. Area = ?',opts:['9m²','18m²','20m²','40m²'],ans:2,exp:'Area = 5 x 4 = 20m²'},
+{q:'Data: 4, 6, 8, 10. Mean = ?',opts:['6','7','8','9'],ans:1,exp:'Mean = 28 / 4 = 7'},
+{q:'Bag 2 red, 6 blue. P(red) = ?',opts:['2/8','6/8','1/2','1'],ans:0,exp:'P = 2 / 8 = 1/4'},
+{q:'Fixed R2000, Variable R10, Sell R30. Break-Even = ?',opts:['50 units','100 units','200 units','20 units'],ans:1,exp:'Break-Even = 2000 / (30-10) = 100'},
+{q:'Price R200 excl VAT (15%). Incl VAT = ?',opts:['R215','R230','R200','R300'],ans:1,exp:'VAT = 30, Incl = 230'},
+{q:'Travel 90km/h for 2h. Distance = ?',opts:['45km','90km','180km','270km'],ans:2,exp:'Distance = 90 x 2 = 180km'},
+{q:'Cylinder r=7, h=10, π=3.14. Volume approx?',opts:['1539cm³','490cm³','700cm³','220cm³'],ans:0,exp:'Volume = 3.14 x 49 x 10 = 1539.8'}
+];
+var picked=[];while(picked.length<5){var r=Math.floor(Math.random()*qs.length);if(picked.indexOf(r)===-1)picked.push(r);}
+document.getElementById('quizBox').innerHTML=picked.map(function(idx,i){var q=qs[idx];return '<div class="q"><b>Q'+(i+1)+'. '+q.q+'</b>'+q.opts.map(function(o,oi){return '<button class="opt" onclick="answerQuiz(this,'+oi+','+q.ans+',\''+q.exp.replace(/'/g,"")+'\')">'+String.fromCharCode(65+oi)+') '+o+'</button>';}).join('')+'<div class="exp hidden" style="background:#fefce8;padding:10px;border-radius:10px;margin-top:8px"></div></div>';}).join('');
+}
+function answerQuiz(btn,chosen,correct,exp){var card=btn.closest('.q');var opts=card.querySelectorAll('.opt');for(var i=0;i<opts.length;i++)opts[i].disabled=true;quizDone++;if(chosen===correct){btn.classList.add('correct');quizScore++;}else{btn.classList.add('wrong');opts[correct].classList.add('correct');}card.querySelector('.exp').textContent='Solution: '+exp;card.querySelector('.exp').classList.remove('hidden');document.getElementById('quizScore').textContent='Score: '+quizScore+' / '+quizDone+' — '+(quizDone===5?(quizScore>=4?'🌟 Excellent! Distinction!':quizScore>=3?'✅ Passing! Keep going!':'⚠️ Revise + Try Again'):'Keep going...');}
+loadQuiz();
+</script>
+</body></html>
